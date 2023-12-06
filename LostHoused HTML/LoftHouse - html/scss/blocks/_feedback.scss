@@ -1,0 +1,26 @@
+.feedback {
+    padding-bottom: 180px;
+
+    @media (max-width: $stablet) {
+        padding-bottom: 90px;
+    }
+}
+
+.feedback__title {
+    margin-bottom: 38px;
+
+    @media (max-width: $stablet) {
+        margin-bottom: 20px;
+    }
+}
+
+.feedback__form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    align-items: center;
+
+    @media (max-width: $stablet) {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,44 @@
+.cta {
+    padding: 180px 0;
+    background-image: url('./../img/cta/cta-bg.jpg');
+
+    @media (max-width: $stablet) {
+        padding: 60px 0;
+    }
+}
+
+.cta-title {
+    margin-bottom: 17px;
+}
+
+.cta__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+    @media (max-width: $stablet) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.cta__text {
+    line-height: 24px;
+
+    p + p {
+        margin-top: 1rem;
+    }
+
+    @media (max-width: $stablet) {
+        font-size: 14px;
+    }
+}
+
+.cta__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px 30px;
+
+    @media (max-width: $stablet) {
+        grid-template-columns: 1fr;
+    }
+}
